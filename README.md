@@ -4,6 +4,7 @@
 
 ## WRRC
 ![alt text](Screenshot (41).png)
+![alt text](Screenshot (44).png)
 
 ## Getting Started
 1. Make a directory where ever you want in your device 
