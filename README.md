@@ -30,5 +30,7 @@ DATABASE_URL=postgres://username:password@localhost:5432/databaseName
 - your fav movies .
 2. you can search about the movie you want.
 3. you can post a new movie .
+4. you can delete from you list of movies
+5. you can ubdate on the movies in your list
 
 
