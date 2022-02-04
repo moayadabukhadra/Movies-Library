@@ -29,7 +29,7 @@ app.delete(`/deleteMovie/:id`,deleteMovie)
 app.get('*',notfound);
 app.use(errorHandler);
 
-
+const PORT = process.env.PORT;
 
 function Movie(title,poster_path,overview){
     this.title = title;
@@ -218,7 +218,7 @@ function errorHandler (error,req,res){
 
 
 client.connect().then(()=>{
-   app.listen(3000,()=>{
-        console.log(`listining to port =3000`)
+   app.listen(PORT,()=>{
+        console.log(`listining to port  ${process.env.PORT};`)
     })
 })
